@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+# svelte-kit
+.DS_Store
+/build
+/.svelte-kit
+/package
