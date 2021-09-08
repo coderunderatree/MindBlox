@@ -10,6 +10,8 @@
   "author": "Lohit Peesapati <lohit.peesapati@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "preinstall": "npx -y only-allow pnpm",
+    "commit": "cz",
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
     "preview": "svelte-kit preview",
@@ -31,9 +33,11 @@
     "@typescript-eslint/eslint-plugin": "^4.19.0",
     "@typescript-eslint/parser": "^4.19.0",
     "babel-loader": "^8.2.2",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^7.22.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-svelte3": "^3.2.0",
+    "husky": "^7.0.2",
     "prettier": "~2.2.1",
     "prettier-plugin-svelte": "^2.2.0",
     "svelte": "^3.42.4",
@@ -43,5 +47,9 @@
     "tslib": "^2.0.0",
     "typescript": "^4.0.0"
   },
-  "dependencies": {}
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
