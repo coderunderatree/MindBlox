@@ -1,6 +1,9 @@
 # [WIP] MindBlox
 A productivity tool to help build projects and track time as blocks
 
+<!-- Badges start -->
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+<!-- Badges end -->
 ## Why ?
 
 A fun way to improve work/life balance and improve
